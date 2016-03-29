@@ -24,8 +24,8 @@ describe('Sosyaku Normal', () => {
     };
     const sosyaku = new Sosyaku(params);
     sosyaku.bite()
-    .then( result => {
-      assert(result === 'Fin');
+    .then( resultList => {
+      assert(_.isArray(resultList));
       assert(_.isArray(sosyaku.resultList));
       assert(this.dataList.length === DATA_LENGTH);
       done();
@@ -38,8 +38,8 @@ describe('Sosyaku Normal', () => {
     };
     const sosyaku = new Sosyaku(params);
     sosyaku.bite()
-    .then( result => {
-      assert(result === 'Fin');
+    .then( resultList => {
+      assert(_.isArray(resultList));
       done();
     });
   });
@@ -51,8 +51,8 @@ describe('Sosyaku Normal', () => {
     };
     const sosyaku = new Sosyaku(params);
     sosyaku.bite()
-    .then( result => {
-      assert(result === 'Fin');
+    .then( resultList => {
+      assert(_.isArray(resultList));
       done();
     });
   });
@@ -64,8 +64,8 @@ describe('Sosyaku Normal', () => {
     };
     const sosyaku = new Sosyaku(params);
     sosyaku.bite()
-    .then( result => {
-      assert(result === 'Fin');
+    .then( resultList => {
+      assert(_.isArray(resultList));
       done();
     });
   });
