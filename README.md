@@ -1,4 +1,4 @@
-Sosyaku
+Sosyaku [![Build Status](https://travis-ci.org/eiurur/Sosyaku.svg?branch=master)](https://travis-ci.org/eiurur/Sosyaku)
 ======
 
 ### 【WIP】
