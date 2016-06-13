@@ -19,6 +19,7 @@ describe('Sosyaku Normal', () => {
     const params = {
       skip: 0,
       limit: 20,
+      interval_s: 1,
       dataList: this.dataList,
       task: this.task,
     };
